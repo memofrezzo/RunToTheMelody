@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64c7177109ed6ad41bdfbec35dc7d32b, type: 3}
+  m_Name: Sound SO
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Jump
+    volume: 1
+    mixer: {fileID: -6794215220004204070, guid: cbba102c82cfd984c9fac82c5a689592,
+      type: 2}
+    sounds:
+    - {fileID: 8300000, guid: 1d65718912b520847b247b40663dd0bb, type: 3}
+    exposedParamName: 
+  - name: Slide
+    volume: 1
+    mixer: {fileID: 475244852974762880, guid: cbba102c82cfd984c9fac82c5a689592, type: 2}
+    sounds:
+    - {fileID: 8300000, guid: 275932ba523da49499801b8010b79d98, type: 3}
+    exposedParamName: 
+  - name: Ground
+    volume: 1
+    mixer: {fileID: -4235895810496704164, guid: cbba102c82cfd984c9fac82c5a689592,
+      type: 2}
+    sounds:
+    - {fileID: 8300000, guid: 87a15ada9a277994ea5d2264fae6409e, type: 3}
+    exposedParamName: 
+  - name: Footstep
+    volume: 1
+    mixer: {fileID: 1958697219658207328, guid: cbba102c82cfd984c9fac82c5a689592, type: 2}
+    sounds:
+    - {fileID: 8300000, guid: ca4c5d5e5e9f2a64e88b0b31e7554c86, type: 3}
+    - {fileID: 8300000, guid: 3a33e25ca7080ad499e419249c802bdd, type: 3}
+    - {fileID: 8300000, guid: 4db7ba06d72edad4eb8d79240124b852, type: 3}
+    - {fileID: 8300000, guid: 320c2862323d28549912419b6d6972af, type: 3}
+    - {fileID: 8300000, guid: 71b9acc6c38cb724bb4ba1fbfe7cd75d, type: 3}
+    - {fileID: 8300000, guid: 1c77d01e8d5a32242acb5981c36d09f7, type: 3}
+    - {fileID: 8300000, guid: 93e6950050fd5ef4d901195a4a091f80, type: 3}
+    - {fileID: 8300000, guid: 53f793997253d764c84dcbc70cd1b79e, type: 3}
+    - {fileID: 8300000, guid: ebd3284258a435e419cc78f7a703fd6e, type: 3}
+    - {fileID: 8300000, guid: 3dd61597d94487749ab8830c4a217e17, type: 3}
+    exposedParamName: FootstepsVolume
